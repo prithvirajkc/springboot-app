@@ -16,7 +16,7 @@ spec:
         - name: mastersecret 
       containers:
       - name: my-springboot-app
-        image: masterpoc.azurecr.io/master_image:24
+        image: masterpoc.azurecr.io/master_image:29
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
