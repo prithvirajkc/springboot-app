@@ -12,6 +12,8 @@ spec:
       labels:
         app: springboot-app
     spec:
+      imagePullSecrets:
+        - name: mastersecret 
       containers:
       - name: my-springboot-app
         image: masterpoc.azurecr.io/master_image:24
